@@ -1,0 +1,37 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Birthstone&display=swap");
+
+.banner-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.banner-box img {
+  width: 100%;
+  grid-column: 1 / -1; /* the -1 is just a fancy way to say "span all the columns" */
+  grid-row: 1;
+}
+
+body {
+  background-color: #996888;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+.banner-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.banner-box img {
+  width: 100%;
+  grid-column: 1 / -1; /* the -1 is just a fancy way to say "span all the columns" */
+  grid-row: 1;
+}
